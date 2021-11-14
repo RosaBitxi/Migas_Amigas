@@ -1,0 +1,29 @@
+/*Estilo da páxina index*/
+.corpo {background-color: #ecd0ae;}
+.logo {width:5em;height: auto;}
+.menu {background-color:#be925b;}
+.video {width:100%;height:auto;}
+.tamano {width:180px;}
+.mapa {width:100%; height:20em; margin:0em; padding:0em;}
+.footer {font-size: small; color:#ebc698;} 
+.datos-pe {padding-left: 2em;}
+.rrss {width:auto;height:auto; padding:.5em;}
+
+/*Estilos das páxinas das seccións*/
+.titulo-section {color:#ebc698;}
+.section-pan-name {width:100%; height:18em; background-image: url("../imaxes/pan-section.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: 100%;}
+.section-tarta-name {width:100%; height:18em; background-image: url("../imaxes/tarta-section.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: 100%;}
+.section-bolo-name {width:100%; height:20em; background-image: url("../imaxes/empanadilla-section.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: 100%;}
+
+/*Efecto index*/
+.capa-letra {height: 100%; transition: .5s ease-in;}
+.pasar-rato:hover .capa-letra {width: 100%;left: 0;}
+.pasar-rato:hover .capa-foto {margin-left:0;}
+.pasar-rato:hover .texto-rato {display:block;width: 100%;left: 0;}
+.texto-rato {display:none; transition: .5s ease-in;}
+.foto-rato {display: block;height: auto;}
+.capa-foto {margin-left:5em;}
+
+
+
+
